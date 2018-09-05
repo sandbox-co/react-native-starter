@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
+    "rename": "node bin/rename.js",
     "test": "jest"
   },
   "dependencies": {
@@ -13,8 +14,10 @@
   "devDependencies": {
     "babel-jest": "23.4.2",
     "babel-preset-react-native": "^5",
+    "fs-extra": "^7.0.0",
     "jest": "23.5.0",
-    "react-test-renderer": "16.4.1"
+    "react-test-renderer": "16.4.1",
+    "replace-in-file": "^3.4.2"
   },
   "jest": {
     "preset": "react-native"
